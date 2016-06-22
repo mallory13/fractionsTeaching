@@ -1,0 +1,102 @@
+@charset "utf-8";
+	/*.st0*/
+html {
+            /*border: 5px solid red;*/
+            min-height: 100%;
+            /*background-color: white;*/
+        }
+
+body{
+
+      /*margin: 2.5%;
+      padding: 2.5%;*/
+      background-color: #333333;
+      color: #e4e5e4;
+      font-size: 1em;
+      font-family: Lato, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif ;
+}
+
+
+main{
+
+   padding: 2%;
+   margin-bottom: -142px;
+   clear: both;
+
+}
+
+/*.container{
+    width: 80%;
+    margin: 0 auto;
+}*/
+
+
+#pathway{
+  /*margin: 10%;*/
+	border: 1px solid #82BC00;
+  padding: 5% 30%;
+	box-shadow: 0 0 8px #999;
+  font-size: 4.5em;
+  width: 160%;
+  text-align: center;
+  background-color: #383838;
+}
+
+#tasks, #research, #planSupport, #plfSupport{
+  margin: 50px;
+	border: 1px solid #00C1DE;
+  padding: 5% 30%;
+	box-shadow: 0 0 8px #999;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  background-color: #383838;
+}
+
+a{
+  /*color: #e4e5e4;*/
+  text-decoration: none;
+
+}
+
+#searchEngine{
+  width: 50%;
+
+}
+
+a:hover{
+  color: #724199;
+  text-decoration: none;
+  border: 3px solid #00DFDE;
+  /*font-size: 50%;*/
+}
+
+a:active{
+
+}
+
+footer{
+  border-top:1px solid #FF6B00;
+	margin-bottom: 2%;
+	margin-top: 2%;
+    height: auto;
+    width: 80%;
+    padding: 5%;
+    padding-left: 5%;
+}
+small {
+    clear: both;
+    background-color: #3B3B3B;
+    text-align: center;
+    height: 20px;
+    position: fixed;
+    width:100%;
+    left:-2px;
+    bottom:0px;
+    color: oldlace;
+    padding-left: 5%;
+    font-size: 2em;
+
+
+
+}
