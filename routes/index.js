@@ -12,47 +12,29 @@ router.get('/', function(req, res, next) {
 
 //load the about view and pass variable myName with a value
 //one json array to hold all the variables we want to pass back
-router.get('/awards', function(req, res, next) {
-  res.render('awards', {myName: "Awards", title:"Awards"});
+router.get('/pathway', function(req, res, next) {
+  res.render('pathway', {myName: "Pathway", title:"Pathway"});
 });
 
 router.get('/contact', function(req, res, next) {
   res.render('contact', {myName: "Contact", title:"Contact"});
 });
 
-router.get('/education', function(req, res, next) {
-  res.render('education', {myName: "Education", title:"Education"});
+router.get('/planningSupports', function(req, res, next) {
+  res.render('planningSupports', {myName: "Planning Supports", title:"Planning Supports"});
 });
 
-router.get('/goals', function(req, res, next) {
-  res.render('goals', {myName: "Goals", title:"Goals"});
+router.get('/plfSupports', function(req, res, next) {
+  res.render('plfSupports', {myName: "PLF Supports", title:"PLF Supports"});
 });
 
-router.get('/projects', function(req, res, next) {
-  res.render('projects', {myName: "Projects", title:"Projects"});
+router.get('/research', function(req, res, next) {
+  res.render('research', {myName: "Research", title:"Research"});
 });
 
-router.get('/skills', function(req, res, next) {
-  res.render('skills', {myName: "Skills", title:"Skills"});
+router.get('/tasks', function(req, res, next) {
+  res.render('tasks', {myName: "Tasks", title:"Tasks"});
 });
-
-router.get('/volunteer', function(req, res, next) {
-  res.render('volunteer', {myName: "Volunteer", title:"Volunteer"});
-});
-
-router.get('/branding', function(req, res, next) {
-  res.render('branding', {myName: "Branding", title:"Branding"});
-});
-
-router.get('/styleGuide', function(req, res, next) {
-  res.render('styleGuide', {myName: "StyleGuide", title:"StyleGuide"});
-});
-
-
-
-
-
-
 
 
 
