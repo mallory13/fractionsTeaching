@@ -40,16 +40,16 @@ router.get('/tasks', function(req, res, next) {
 
 
 // test
-router.get('/unitA', function(req, res, next) {
-  res.render('research/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
+router.get('/research/pathway/unit/unitA', function(req, res, next) {
+  res.render('unitA', {myName: "Unit A", title:"Unit A"});
 });
 
 router.get('research/pathway/unit/unitB', function(req, res, next) {
   res.render('unitB', {myName: "Unit B", title:"Unit B"});
 });
 
-router.get('views/research/pathway/unit/unitC', function(req, res, next) {
-  res.render('/unitC', {myName: "Unit C", title:"Unit C"});
+router.get('./research/pathway/unit/unitC', function(req, res, next) {
+  res.render('unitC', {myName: "Unit C", title:"Unit C"});
 });
 
 
