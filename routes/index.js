@@ -40,11 +40,11 @@ router.get('/tasks', function(req, res, next) {
 
 
 // test
-router.get('/research/pathway/unit/unitA.ejs', function(req, res, next) {
+router.get('../unitA', function(req, res, next) {
   res.render('unitA', {myName: "Unit A", title:"Unit A"});
 });
 
-router.get('research/pathway/unit/unitB.ejs', function(req, res, next) {
+router.get('../unitB.ejs', function(req, res, next) {
   res.render('unitB', {myName: "Unit B", title:"Unit B"});
 });
 
