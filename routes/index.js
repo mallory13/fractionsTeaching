@@ -44,12 +44,12 @@ router.get('/pathway/unit/unitA', function(req, res, next) {
   res.render('unitA', {myName: "Unit A", title:"Unit A"});
 });
 
-router.get('/pathway/unit/unitB', function(req, res, next) {
-  res.render('/pathway/unit/unitB.ejs', {myName: "Unit B", title:"Unit B"});
+router.get('./pathway/unit/unitB.ejs', function(req, res, next) {
+  res.render('unitB', {myName: "Unit B", title:"Unit B"});
 });
 
-router.get('./pathway/unit/unitC', function(req, res, next) {
-  res.render('./pathway/unit/unitC', {myName: "Unit C", title:"Unit C"});
+router.get('views/pathway/unit/unitC', function(req, res, next) {
+  res.render('unitC', {myName: "Unit C", title:"Unit C"});
 });
 
 
