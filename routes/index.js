@@ -41,7 +41,7 @@ router.get('/tasks', function(req, res, next) {
 
 // test
 router.get('/pathway/unit/unitA', function(req, res, next) {
-  res.render('/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
+  res.render('unitA', {myName: "Unit A", title:"Unit A"});
 });
 
 router.get('/pathway/unit/unitB', function(req, res, next) {
