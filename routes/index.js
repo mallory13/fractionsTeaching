@@ -36,6 +36,10 @@ router.get('/tasks', function(req, res, next) {
   res.render('tasks', {myName: "Tasks", title:"Tasks"});
 });
 
+router.get('/pathway/unit/unitA', function(req, res, next) {
+  res.render('/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
+});
+
 
 
 module.exports = router;
