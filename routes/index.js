@@ -41,14 +41,14 @@ router.get('/tasks', function(req, res, next) {
 
 // test
 router.get('/unitA', function(req, res, next) {
-  res.render('/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
+  res.render('research/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
 });
 
-router.get('/pathway/unit/unitB', function(req, res, next) {
+router.get('research/pathway/unit/unitB', function(req, res, next) {
   res.render('unitB', {myName: "Unit B", title:"Unit B"});
 });
 
-router.get('views/pathway/unit/unitC', function(req, res, next) {
+router.get('views/research/pathway/unit/unitC', function(req, res, next) {
   res.render('/unitC', {myName: "Unit C", title:"Unit C"});
 });
 
