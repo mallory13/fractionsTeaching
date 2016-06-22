@@ -12,6 +12,8 @@ router.get('/index', function(req, res, next) {
 
 //load the about view and pass variable myName with a value
 //one json array to hold all the variables we want to pass back
+
+// main pages
 router.get('/pathway', function(req, res, next) {
   res.render('pathway', {myName: "Pathway", title:"Pathway"});
 });
@@ -36,9 +38,83 @@ router.get('/tasks', function(req, res, next) {
   res.render('tasks', {myName: "Tasks", title:"Tasks"});
 });
 
+
+// test
 router.get('/pathway/unit/unitA', function(req, res, next) {
   res.render('/pathway/unit/unitA', {myName: "Unit A", title:"Unit A"});
 });
+
+router.get('/pathway/unit/unitB', function(req, res, next) {
+  res.render('/pathway/unit/unitB.ejs', {myName: "Unit B", title:"Unit B"});
+});
+
+router.get('./pathway/unit/unitC', function(req, res, next) {
+  res.render('./pathway/unit/unitC', {myName: "Unit C", title:"Unit C"});
+});
+
+
+
+// pathway files
+
+
+  // comp
+
+
+  // op
+
+
+  // unit
+
+
+
+
+// planning support files
+
+
+
+
+//plf Support files
+
+
+
+//research files
+
+  // digital paper
+
+
+  // lit reviews
+
+
+  // support docs
+
+
+
+
+// tasks files
+
+  //digital paper
+
+    // lesson bundles
+
+    // single lessons
+
+  // pathway
+
+    // comp
+
+
+    // op
+
+
+    // unit
+
+
+
+
+
+
+
+
 
 
 
