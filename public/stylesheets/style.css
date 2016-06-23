@@ -14,6 +14,7 @@ body{
       color: #e4e5e4;
       font-size: 1.5em;
       font-family: lato, Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
 }
 
 .container{
@@ -62,7 +63,7 @@ main{
   padding: 1% 1%;
   margin-left: 5%;
 	box-shadow: 0 0 8px #999;
-  font-size: 4.5em;
+  font-size: 3.5em;
   width: 80%;
   background-color: #383838;
   color: #e4e5e4;
@@ -110,12 +111,12 @@ a:active{
 footer{
   border-top:1px solid #FF6B00;
 	margin-bottom: 2%;
-	margin-top: 80%;
+	margin-top: 30%;
     height: auto;
     width: 80%;
     padding: 5%;
     padding-left: 5%;
-	margin-left: 70%;
+	margin-left: 10%;
 }
 small {
     clear: both;
