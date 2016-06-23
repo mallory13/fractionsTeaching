@@ -1,5 +1,10 @@
 //routes and controllers are the same thing
+
 'use strict'
+var express = require('express');
+var router = express.Router();
+
+
 angular.module('core').controller('ContactFormController', ['$scope', '$mdToast', '$animate'
   function($scope, '$mdToast', '$animate'){
     //show variable from contact form view
@@ -17,9 +22,28 @@ $scope.getToastPosition = function () {
   })
   .join(' ');
 };
-$scope.showSimpleToast = function (){
+this.sendMail = function (){
+
+  data=({
+  firstName : this.firstName,
+  lastName : this.lastName,
+  email : this.email,
+  schoolBoard : this.schoolBoard,
+  message : this.message
+});
+
+//POST request
+$http.post('/contact-form', data)
+success(function(data, status, headers, config){
+  //callback when response is available
+})
+error(function(data, status, headers, config){
+  //if error occurs or server returns response with an error status
+
+});
+
   $mdToast.simple()
-  .content('Simple Toast')
+  .content('Your message has been sent.')
   .position($scope.getToastPosition()
 .hideDelay(3000)
 );
@@ -28,8 +52,6 @@ $scope.showSimpleToast = function (){
 ]);
 
 
-var express = require('express');
-var router = express.Router();
 
 
 
@@ -37,8 +59,7 @@ var router = express.Router();
 //one json array to hold all the variables we want to pass back
 
 
-router.get('/contact', function(req, res, next) {
-  res.render('contact', {myName: "Contact", title:"Contact"});
+
 });
 
 

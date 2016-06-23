@@ -16,7 +16,7 @@ var research = require('./routes/research');
 var supportDocs = require('./routes/supportDocs');
 var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
 var tasksPathway = require('./routes/tasksPathway');
-var tasksPathway = require('./routes/contact');
+var contact = require('./routes/contact');
 
 var controllers = require('./controllers');
 
