@@ -12,8 +12,14 @@ body{
       padding: 2.5%;*/
       background-color: #333333;
       color: #e4e5e4;
-      font-size: 2.5em;
+      font-size: 1.5em;
       font-family: Lato, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif ;
+}
+
+a{
+  /*color: #e4e5e4;*/
+  text-decoration: none;
+
 }
 
 
@@ -55,11 +61,7 @@ main{
   color: #e4e5e4;
 }
 
-a{
-  /*color: #e4e5e4;*/
-  text-decoration: none;
 
-}
 
 #searchEngine{
   width: 20%;
@@ -67,7 +69,8 @@ a{
 }
 
 a:hover{
-
+  color: #724199;
+  border-right: 1px solid #724199;
   /*font-size: 50%;*/
 }
 
