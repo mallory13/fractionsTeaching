@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 // var users = require('./routes/users');
-// var digitalPaper = require('./routes/digitalPaper');
+var digitalPaper = require('./routes/digitalPaper');
 // var litReviews = require('./routes/litReviews');
 // var pathway = require('./routes/pathway');
 // var planningSupports = require('./routes/planningSupports');
@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-// app.use('/digitalPaper', digitalPaper);
+app.use('/digitalPaper', digitalPaper);
 // app.use('/litReviews', litReviews);
 // app.use('/pathway', pathway);
 // app.use('/planningSupports', planningSupports);
