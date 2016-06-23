@@ -82,8 +82,8 @@ main{
 	border: 1px solid #00C1DE;
   padding: 5% 30%;
 	box-shadow: 0 0 8px #999;
-  font-size: 3em;
-  width: 80%;
+  font-size: 2.5em;
+  width: 95%;
   height: 15%;
   text-align: center;
   background-color: #383838;
@@ -94,11 +94,17 @@ main{
   border: 2px solid #00C1DE;
 }
 
+form{
+  color: #333;
+}
 
+h1, h2{
+  text-align: center;
+  font-size: 3em;
+}
 
 #searchEngine{
   width: 20%;
-
 
 }
 
