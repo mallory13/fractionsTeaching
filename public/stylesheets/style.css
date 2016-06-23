@@ -20,7 +20,7 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
 }
 
 a{
@@ -66,7 +66,7 @@ main{
 	box-shadow: 0 0 8px #999;
   font-size: 3.5em;
   width: 80%;
-  height: 20%;
+  height: 30%;
   background-color: #383838;
   color: #e4e5e4;
   align-content: center;
@@ -79,7 +79,8 @@ main{
   padding: 5% 30%;
 	box-shadow: 0 0 8px #999;
   font-size: 3em;
-  width: 100%;
+  width: 50%;
+  height: 20%;
   text-align: center;
   background-color: #383838;
   color: #e4e5e4;
