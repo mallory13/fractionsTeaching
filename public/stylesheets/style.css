@@ -63,13 +63,13 @@ main{
   /*margin: 10%;*/
 	border: 1px solid #82BC00;
   /*padding: 1% 1%;*/
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   margin-left: 10%;
 	box-shadow: 0 0 8px #999;
-  font-size: 3.5em;
+  font-size: 3em;
   width: 80%;
-  height: 15%;
+  height: 5%;
   background-color: #383838;
   color: #e4e5e4;
   align-content: center;
@@ -138,6 +138,7 @@ footer{
     padding: 5%;
     padding-left: 8%;
 	margin-left: 10%;
+  color: oldlace;
 }
 small {
     clear: both;
