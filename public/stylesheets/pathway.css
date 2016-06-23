@@ -1,4 +1,49 @@
 @charset "utf-8";
 	/*.st0*/
 
-  
+
+  .hideDesktop{
+    visibility: hidden;
+  }
+
+
+  .parBlue .parGreen .parOrange{
+    width: 150px;
+  	height: 100px;
+  	-webkit-transform: skew(-20deg);
+  	   -moz-transform: skew(-20deg);
+  	     -o-transform: skew(-20deg);
+  	background: #EDEDED;
+  }
+
+
+  .parBlue a:hover{
+    border: 1px solid #00C1DE;
+  }
+
+  .parGreen a:hover{
+    border: 1px solid #82BC00;
+  }
+
+  .parOrange a:hover{
+    border: 1px solid #FF6B00;
+  }
+
+#op{
+    width: 80%;
+	height: 20%;
+	background: #00C1DE;
+  }
+
+  #comp{
+    width: 70%;
+  height: 20%;
+  background: #FF6B00;
+  }
+
+
+#unit{
+  width: 60%;
+height: 20%;
+background: #82BC00;
+}
