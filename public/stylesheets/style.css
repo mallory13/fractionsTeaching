@@ -49,11 +49,11 @@ main{
 #pathway{
   /*margin: 10%;*/
 	border: 1px solid #82BC00;
-  padding: 5% 5%;
+  padding: 1% 1%;
   margin-left: 5%;
 	box-shadow: 0 0 8px #999;
   font-size: 4.5em;
-  width: 90%;
+  width: 80%;
   background-color: #383838;
   color: #e4e5e4;
   align-content: center;
@@ -100,11 +100,12 @@ a:active{
 footer{
   border-top:1px solid #FF6B00;
 	margin-bottom: 2%;
-	margin-top: 2%;
+	margin-top: 80%;
     height: auto;
     width: 80%;
     padding: 5%;
     padding-left: 5%;
+	margin-left: 70%;
 }
 small {
     clear: both;
