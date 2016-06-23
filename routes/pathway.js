@@ -66,8 +66,8 @@ router.get('/unit', function(req, res, next) {
   res.render('pathway/unit', {myName: "Unit Fractions", title:"Unit Fractions"});
 });
 
-router.get('/pathway/unitA', function(req, res, next) {
-  res.render('unitA', {myName: "Unit A", title:"Unit A"});
+router.get('/unitA', function(req, res, next) {
+  res.render('pathway/unitA', {myName: "Unit A", title:"Unit A"});
 });
 
 router.get('/unitB', function(req, res, next) {
