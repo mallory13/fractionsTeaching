@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET home page. */
 // router is express library for handling urls
-router.get('/index', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.render('index', { myName: "index", title: "Home" });
 });
 
