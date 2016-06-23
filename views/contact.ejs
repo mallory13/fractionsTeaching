@@ -7,28 +7,29 @@
 
     <main class="container">
         <h2 id="contact">Contact Me</h2>
-        <form action="" method="post" enctype="multipart/form-data" >
+        <div data-ng-controller="ContactFormController as cf">
+        <form name="contactForm" data-ng-submit="cf.sendMail()" action="" method="post" enctype="multipart/form-data" >
          <fieldset class="well well-large text-center">
              <div class="input-group">
-            <label for="name" >First Name:</label>
-            <input type="text" class="form-control" id="firstName" name="first name" placeholder="Enter your first name" required />
+            <label for="firstName" >First Name:</label>
+            <input type="text" data-ng-model="cf.firstName" class="form-control" id="firstName" name="first name" placeholder="Enter your first name" required />
            </div>
 
 
 
              <div class="input-group">
-            <label for="name">Last Name:</label>
-            <input type="text" class="form-control" id="lastName" name="last name" placeholder="Enter your last name" required />
+            <label for="lastName">Last Name:</label>
+            <input type="text" data-ng-model="cf.lastName" class="form-control" id="lastName" name="last name" placeholder="Enter your last name" required />
             </div>
 
             <div class="input-group">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
+            <input type="email" data-ng-model="cf.email" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
           </div>
 
             <div class="input-group">
-  <label for="email" class="control-label">School Board</label>
-    <select class="form-control">
+  <label for="schoolBoard" class="control-label">School Board</label>
+    <select class="form-control" data-ng-model="schoolBoard">
       <option>None</option>
       <option>Out of Province Board</option>
       <option>Algoma District School Board</option>
@@ -118,14 +119,16 @@
   </div>
             <div class="input-group">
             <label for="message">Message:</label>
-            <textarea id="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
+            <textarea id="message" data-ng-model="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
             </div>
 
             <p></p>
             <div class="input-group">
             <input type="submit" class="btn btn-info btn-lg btn-block" value="Submit" />
         </div>
+
          </fieldset>
       </form>
+        </div>
 
 <%- include partials/footer.ejs%>
