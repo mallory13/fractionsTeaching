@@ -20,7 +20,7 @@ a{
 
 
   .parBlue{
-    border: 1px solid #00C1DE;
+    border: 2px solid #00C1DE;
     width: 90px;
   	height: 50px;
   	-webkit-transform: skew(-30deg);
@@ -30,20 +30,20 @@ a{
   }
 
 .parBlue:hover{
-
+border: 4px solid #00DCFE;
 }
 
 .parGreen:hover{
-
+border: 4px solid #05AB12;
 }
 
 .parOrange{
-
+border: 4px solid #FF871F;
 }
 
 
   .parGreen{
-    border: 1px solid #82BC00;
+    border: 2px solid #82BC00;
     width: 90px;
   	height: 50px;
   	-webkit-transform: skew(-30deg);
@@ -53,31 +53,33 @@ a{
   }
 
   .parOrange{
-    border: 1px solid #FF6B00;
+    border: 2px solid #FF6B00;
     width: 90px;
   	height: 50px;
-  	-webkit-transform: skew(-20deg);
-  	   -moz-transform: skew(-20deg);
-  	     -o-transform: skew(-20deg);
+  	-webkit-transform: skew(-30deg);
+  	   -moz-transform: skew(-30deg);
+  	     -o-transform: skew(-30deg);
   	background: #EDEDED;
   }
 
 #op{
     width: 80%;
-	height: 10%;
+	height: 15%;
   background: #FF6B00;
+  padding-top: -5%;
   }
 
   #comp{
     width: 70%;
-  height: 10%;
+  height: 15%;
   background: #00C1DE;
-
+padding-top: -5%;
   }
 
 
 #unit{
   width: 60%;
-height: 10%;
+height: 15%;
 background: #82BC00;
+padding-top: -5%;
 }
