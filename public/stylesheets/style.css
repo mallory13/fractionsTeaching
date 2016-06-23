@@ -12,7 +12,7 @@ body{
       padding: 2.5%;*/
       background-color: #333333;
       color: #e4e5e4;
-      font-size: 1em;
+      font-size: 2.5em;
       font-family: Lato, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif ;
 }
 
@@ -40,6 +40,7 @@ main{
   width: 160%;
   text-align: center;
   background-color: #383838;
+  color: #e4e5e4;
 }
 
 #tasks, #research, #planSupport, #plfSupport{
@@ -51,6 +52,7 @@ main{
   width: 100%;
   text-align: center;
   background-color: #383838;
+  color: #e4e5e4;
 }
 
 a{
@@ -60,15 +62,20 @@ a{
 }
 
 #searchEngine{
-  width: 50%;
+  width: 20%;
 
 }
 
 a:hover{
+
+  /*font-size: 50%;*/
+}
+
+#mainNav a:hover{
   color: #724199;
   text-decoration: none;
   border: 3px solid #00DFDE;
-  /*font-size: 50%;*/
+  font-size: 3.5em;
 }
 
 a:active{
