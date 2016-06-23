@@ -111,7 +111,7 @@ h1, h2{
 
 a:hover{
   color: #724199;
-  border-right: 1px solid #724199;
+  border-bottom: 3px solid #724199;
   /*font-size: 50%;*/
 }
 
