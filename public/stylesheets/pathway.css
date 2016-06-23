@@ -1,49 +1,69 @@
 @charset "utf-8";
 	/*.st0*/
 
-
+a{
+  text-decoration: none;
+}
   .hideDesktop{
     visibility: hidden;
   }
 
 
-  .parBlue .parGreen .parOrange{
-    width: 150px;
-  	height: 100px;
+  /*.parBlue .parGreen .parOrange{
+    width: 90px;
+  	height: 50px;
+  	-webkit-transform: skew(-20deg);
+  	   -moz-transform: skew(-20deg);
+  	     -o-transform: skew(-20deg);
+  	background: #EDEDED;
+  }*/
+
+
+  .parBlue{
+    border: 1px solid #00C1DE;
+    width: 90px;
+  	height: 50px;
   	-webkit-transform: skew(-20deg);
   	   -moz-transform: skew(-20deg);
   	     -o-transform: skew(-20deg);
   	background: #EDEDED;
   }
 
-
-  .parBlue a:hover{
-    border: 1px solid #00C1DE;
-  }
-
   .parGreen a:hover{
     border: 1px solid #82BC00;
+    width: 90px;
+  	height: 50px;
+  	-webkit-transform: skew(-20deg);
+  	   -moz-transform: skew(-20deg);
+  	     -o-transform: skew(-20deg);
+  	background: #EDEDED;
   }
 
   .parOrange a:hover{
     border: 1px solid #FF6B00;
+    width: 90px;
+  	height: 50px;
+  	-webkit-transform: skew(-20deg);
+  	   -moz-transform: skew(-20deg);
+  	     -o-transform: skew(-20deg);
+  	background: #EDEDED;
   }
 
 #op{
     width: 80%;
-	height: 20%;
+	height: 10%;
 	background: #00C1DE;
   }
 
   #comp{
     width: 70%;
-  height: 20%;
+  height: 10%;
   background: #FF6B00;
   }
 
 
 #unit{
   width: 60%;
-height: 20%;
+height: 10%;
 background: #82BC00;
 }
