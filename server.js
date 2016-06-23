@@ -5,7 +5,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('portfolio:server');
+var debug = require('debug')('fractionsTeaching:server');
 var http = require('http');
 
 /**

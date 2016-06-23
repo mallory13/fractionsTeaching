@@ -6,7 +6,7 @@ var router = express.Router();
 /* GET home page. */
 // router is express library for handling urls
 router.get('/index', function(req, res, next) {
-  res.render('index', { myName: "index", title: 'Home' });
+  res.render('index', { myName: "index", title: "Home" });
 });
 
 
@@ -39,18 +39,7 @@ router.get('/tasks', function(req, res, next) {
 });
 
 
-// test
-router.get('/unitA', function(req, res, next) {
-  res.render('unitA', {myName: "Unit A", title:"Unit A"});
-});
 
-// router.get('../unitB.ejs', function(req, res, next) {
-//   res.render('unitB', {myName: "Unit B", title:"Unit B"});
-// });
-//
-// router.get('./research/pathway/unit/unitC.ejs', function(req, res, next) {
-//   res.render('unitC', {myName: "Unit C", title:"Unit C"});
-// });
 
 
 
