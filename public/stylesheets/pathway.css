@@ -23,23 +23,23 @@ a{
     border: 1px solid #00C1DE;
     width: 90px;
   	height: 50px;
-  	-webkit-transform: skew(-20deg);
-  	   -moz-transform: skew(-20deg);
-  	     -o-transform: skew(-20deg);
+  	-webkit-transform: skew(-30deg);
+  	   -moz-transform: skew(-30deg);
+  	     -o-transform: skew(-30deg);
   	background: #EDEDED;
   }
 
-  .parGreen a:hover{
+  .parGreen{
     border: 1px solid #82BC00;
     width: 90px;
   	height: 50px;
-  	-webkit-transform: skew(-20deg);
-  	   -moz-transform: skew(-20deg);
-  	     -o-transform: skew(-20deg);
+  	-webkit-transform: skew(-30deg);
+  	   -moz-transform: skew(-30deg);
+  	     -o-transform: skew(-30deg);
   	background: #EDEDED;
   }
 
-  .parOrange a:hover{
+  .parOrange{
     border: 1px solid #FF6B00;
     width: 90px;
   	height: 50px;
@@ -52,13 +52,14 @@ a{
 #op{
     width: 80%;
 	height: 10%;
-	background: #00C1DE;
+  background: #FF6B00;
   }
 
   #comp{
     width: 70%;
   height: 10%;
-  background: #FF6B00;
+  background: #00C1DE;
+
   }
 
 
