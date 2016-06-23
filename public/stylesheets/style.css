@@ -45,12 +45,14 @@ main{
   /*margin: 10%;*/
 	border: 1px solid #82BC00;
   padding: 5% 5%;
+  margin-left: 5%;
 	box-shadow: 0 0 8px #999;
   font-size: 4.5em;
   width: 90%;
   text-align: center;
   background-color: #383838;
   color: #e4e5e4;
+  align-content: center;
 }
 
 #tasks, #research, #planSupport, #plfSupport{
