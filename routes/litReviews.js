@@ -10,11 +10,11 @@ var router = express.Router();
 // GET Lit Review pages
 
 router.get('/foundationsAddSub', function(req, res, next) {
-  res.render('foundationsAddSub', {title:"Foundations to Learning and Teaching Fractions: Addition and Subtraction"});
+  res.render('litReviews/foundationsAddSub', {title:"Foundations to Learning and Teaching Fractions: Addition and Subtraction"});
 });
 
-router.get('/unitF', function(req, res, next) {
-  res.render('unitF', {title:"Literature Reviews"});
+router.get('/litReviews', function(req, res, next) {
+  res.render('litReviews/litReviews', {title:"Literature Reviews"});
 });
 
 router.get('/opMultDiv', function(req, res, next) {

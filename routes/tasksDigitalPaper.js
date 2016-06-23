@@ -10,40 +10,40 @@ var router = express.Router();
 // GET tasks digital paper pages
 
 router.get('/compOrder', function(req, res, next) {
-  res.render('compOrder', {title:"Comparing and Ordering Fractions (Gr 6)"});
+  res.render('tasksDigitalPaper/compOrder', {title:"Comparing and Ordering Fractions (Gr 6)"});
 });
 
 router.get('/digitalTasks', function(req, res, next) {
-  res.render('digitalTasks', {title:"Digital Paper Tasks"});
+  res.render('tasksDigitalPaper/digitalTasks', {title:"Digital Paper Tasks"});
 });
 
 router.get('/equivFrac', function(req, res, next) {
-  res.render('equivFrac', {title:"Equivalence of Fractions (Jr - Int)"});
+  res.render('tasksDigitalPaper/equivFrac', {title:"Equivalence of Fractions (Jr - Int)"});
 });
 
 router.get('/fracRep', function(req, res, next) {
-  res.render('fracRep', {title:"Fractions Representation (Jr-Int)"});
+  res.render('tasksDigitalPaper/fracRep', {title:"Fractions Representation (Jr-Int)"});
 });
 
 router.get('/impSetRep', function(req, res, next) {
-  res.render('impSetRep', {title:"Improper Fractions with Set Representations (Gr 6)"});
+  res.render('tasksDigitalPaper/impSetRep', {title:"Improper Fractions with Set Representations (Gr 6)"});
 });
 
 
 router.get('/orderNumLine', function(req, res, next) {
-  res.render('orderNumLine', {title:"Ordering on a Number Line (Gr 7)"});
+  res.render('tasksDigitalPaper/orderNumLine', {title:"Ordering on a Number Line (Gr 7)"});
 });
 
 router.get('/rep', function(req, res, next) {
-  res.render('rep', {title:"Representations (Jr)"});
+  res.render('tasksDigitalPaper/rep', {title:"Representations (Jr)"});
 });
 
 router.get('/setAreaMod', function(req, res, next) {
-  res.render('setAreaMod', {title:"Fractions Representations with Set Area Models (Gr 6)"});
+  res.render('tasksDigitalPaper/setAreaMod', {title:"Fractions Representations with Set Area Models (Gr 6)"});
 });
 
 router.get('/setRep', function(req, res, next) {
-  res.render('setRep', {title:"Set Representations (Jr)"});
+  res.render('tasksDigitalPaper/setRep', {title:"Set Representations (Jr)"});
 });
 
 

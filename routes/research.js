@@ -10,31 +10,31 @@ var router = express.Router();
 // GET research pages
 
 router.get('/digitalPaper', function(req, res, next) {
-  res.render('digitalPaper', {title:"Digital Paper"});
+  res.render('research/digitalPaper', {title:"Digital Paper"});
 });
 
 router.get('/fracPathOverview', function(req, res, next) {
-  res.render('fracPathOverview', {title:"Fractions Learning Pathways Overview"});
+  res.render('research/fracPathOverview', {title:"Fractions Learning Pathways Overview"});
 });
 
 router.get('/fracResearchFindings', function(req, res, next) {
-  res.render('fracResearchFindings', {title:"Fractions Research Findings"});
+  res.render('research/fracResearchFindings', {title:"Fractions Research Findings"});
 });
 
 router.get('/fracResearchSum', function(req, res, next) {
-  res.render('fracResearchSum', {title:"Fractions Research Summary"});
+  res.render('research/fracResearchSum', {title:"Fractions Research Summary"});
 });
 
 router.get('/fracTenLess', function(req, res, next) {
-  res.render('fracTenLess', {title:"Fractions Top Ten Lessons"});
+  res.render('research/fracTenLess', {title:"Fractions Top Ten Lessons"});
 });
 
 router.get('/payAttention', function(req, res, next) {
-  res.render('payAttention', {title:"Paying Attention to Fractions"});
+  res.render('research/payAttention', {title:"Paying Attention to Fractions"});
 });
 
 router.get('/payAttentionOverview', function(req, res, next) {
-  res.render('payAttentionOverview', {title:"Paying Attention to Fractions Overview"});
+  res.render('research/payAttentionOverview', {title:"Paying Attention to Fractions Overview"});
 });
 
 

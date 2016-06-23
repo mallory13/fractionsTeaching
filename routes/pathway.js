@@ -11,83 +11,83 @@ var router = express.Router();
 
 // comp pages
 router.get('/comp', function(req, res, next) {
-  res.render('comp', {myName: "Comparing Fractions", title:"Comparing Fractions"});
+  res.render('pathway/comp', {myName: "Comparing Fractions", title:"Comparing Fractions"});
 });
 
 router.get('/compA', function(req, res, next) {
-  res.render('compA', {myName: "Comp A", title:"Comp A"});
+  res.render('pathway/compA', {myName: "Comp A", title:"Comp A"});
 });
 
 
 router.get('/compB', function(req, res, next) {
-  res.render('compB', {myName: "Comp B", title:"Comp B"});
+  res.render('pathway/compB', {myName: "Comp B", title:"Comp B"});
 });
 
 router.get('/compC', function(req, res, next) {
-  res.render('compC', {myName: "Comp C", title:"Comp C"});
+  res.render('pathway/compC', {myName: "Comp C", title:"Comp C"});
 });
 
 router.get('/compD', function(req, res, next) {
-  res.render('compD', {myName: "Comp D", title:"Comp D"});
+  res.render('pathway/compD', {myName: "Comp D", title:"Comp D"});
 });
 
 router.get('/compE', function(req, res, next) {
-  res.render('compE', {myName: "Comp E", title:"Comp E"});
+  res.render('pathway/compE', {myName: "Comp E", title:"Comp E"});
 });
 
 
 // get op pages
 router.get('/op', function(req, res, next) {
-  res.render('op', {myName: "Operations", title:"Operations"});
+  res.render('pathway/op', {myName: "Operations", title:"Operations"});
 });
 
 router.get('/opA', function(req, res, next) {
-  res.render('opA', {myName: "Op A", title:"Op A"});
+  res.render('pathway/opA', {myName: "Op A", title:"Op A"});
 });
 
 router.get('/opB', function(req, res, next) {
-  res.render('opB', {myName: "Op B", title:"Op B"});
+  res.render('pathway/opB', {myName: "Op B", title:"Op B"});
 });
 
 router.get('/opC', function(req, res, next) {
-  res.render('opC', {myName: "Op C", title:"Op C"});
+  res.render('pathway/opC', {myName: "Op C", title:"Op C"});
 });
 
 router.get('/opD', function(req, res, next) {
-  res.render('opD', {myName: "Op D", title:"Op D"});
+  res.render('pathway/opD', {myName: "Op D", title:"Op D"});
 });
 
 router.get('/opE', function(req, res, next) {
-  res.render('opE', {myName: "Op E", title:"Op E"});
+  res.render('pathway/opE', {myName: "Op E", title:"Op E"});
 });
 
 // get unit pages
 router.get('/unit', function(req, res, next) {
-  res.render('unit', {myName: "Unit Fractions", title:"Unit Fractions"});
+  res.render('pathway/unit', {myName: "Unit Fractions", title:"Unit Fractions"});
 });
 
 router.get('/unitA', function(req, res, next) {
-  res.render('unitA', {myName: "Unit A", title:"Unit A"});
+  res.render('pathway/unitA', {myName: "Unit A", title:"Unit A"});
 });
 
 router.get('/unitB', function(req, res, next) {
-  res.render('unitB', {myName: "Unit B", title:"Unit B"});
+  res.render('pathway/unitB', {myName: "Unit B", title:"Unit B"});
 });
 
 router.get('/unitC', function(req, res, next) {
-  res.render('unitC', {myName: "Unit C", title:"Unit C"});
+  res.render('pathway/unitC', {myName: "Unit C", title:"Unit C"});
 });
 
 router.get('/unitD', function(req, res, next) {
-  res.render('unitD', {myName: "Unit D", title:"Unit D"});
+  res.render('pathway/unitD', {myName: "Unit D", title:"Unit D"});
 });
 
 router.get('/unitE', function(req, res, next) {
-  res.render('unitE', {myName: "Unit E", title:"Unit E"});
+  res.render('pathway/unitE', {myName: "Unit E", title:"Unit E"});
 });
 
 router.get('/unitF', function(req, res, next) {
-  res.render('unitF', {myName: "Unit F", title:"Unit F"});
+  res.render('pathway/unitF', {myName: "Unit F", title:"Unit F"});
 });
 
 

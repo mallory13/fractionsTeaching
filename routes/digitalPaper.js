@@ -10,19 +10,19 @@ var router = express.Router();
 // GET digital pathway pages
 
 router.get('/fracRepCompOrder', function(req, res, next) {
-  res.render('fracRepCompOrder', {title:"Fractions Representing Comparing Ordering"});
+  res.render('digitalPaper/fracRepCompOrder', {title:"Fractions Representing Comparing Ordering"});
 });
 
 router.get('/litReviews', function(req, res, next) {
-  res.render('litReviews', {title:"Instructional Decisions"});
+  res.render('digitalPaper/litReviews', {title:"Instructional Decisions"});
 });
 
 router.get('/studentLearn', function(req, res, next) {
-  res.render('studentLearn', {title:"Student Learning"});
+  res.render('digitalPaper/studentLearn', {title:"Student Learning"});
 });
 
 router.get('/teachProLearn', function(req, res, next) {
-  res.render('teachProLearn', {title:"Teacher Professional Learning"});
+  res.render('digitalPaper/teachProLearn', {title:"Teacher Professional Learning"});
 });
 
 
