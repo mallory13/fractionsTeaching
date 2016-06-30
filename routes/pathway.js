@@ -67,7 +67,7 @@ router.get('/unit', function(req, res, next) {
 });
 
 router.get('/unitA', function(req, res, next) {
-  res.render('pathway/unitA', {myName: "Unit A", title:"Unit A"});
+  res.render('research/pathway/unitA', {myName: "Unit A", title:"Unit A"});
 });
 
 router.get('/unitB', function(req, res, next) {
