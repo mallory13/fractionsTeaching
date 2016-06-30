@@ -8,15 +8,15 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 // var users = require('./routes/users');
 var digitalPaper = require('./routes/digitalPaper');
-// var litReviews = require('./routes/litReviews');
-// var pathway = require('./routes/pathway');
-// var planningSupports = require('./routes/planningSupports');
-// var plfSupports = require('./routes/plfSupports');
-// var research = require('./routes/research');
-// var supportDocs = require('./routes/supportDocs');
-// var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
-// var tasksPathway = require('./routes/tasksPathway');
-// var contact = require('./routes/contact');
+var litReviews = require('./routes/litReviews');
+var pathway = require('./routes/pathway');
+var planningSupports = require('./routes/planningSupports');
+var plfSupports = require('./routes/plfSupports');
+var research = require('./routes/research');
+var supportDocs = require('./routes/supportDocs');
+var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
+var tasksPathway = require('./routes/tasksPathway');
+var contact = require('./routes/contact');
 
 // var controllers = require('./controllers');
 
@@ -36,15 +36,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/digitalPaper', digitalPaper);
-// app.use('/litReviews', litReviews);
-// app.use('/pathway', pathway);
-// app.use('/planningSupports', planningSupports);
-// app.use('/plfSupports', plfSupports);
-// app.use('/research', research);
-// app.use('/supportDocs', supportDocs);
-// app.use('/tasksDigitalPaper', tasksDigitalPaper);
-// app.use('/tasksPathway', tasksPathway);
-// app.use('/contact', contact);
+app.use('/litReviews', litReviews);
+app.use('/pathway', pathway);
+app.use('/planningSupports', planningSupports);
+app.use('/plfSupports', plfSupports);
+app.use('/research', research);
+app.use('/supportDocs', supportDocs);
+app.use('/tasksDigitalPaper', tasksDigitalPaper);
+app.use('/tasksPathway', tasksPathway);
+app.use('/contact', contact);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
