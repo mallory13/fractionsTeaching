@@ -14,8 +14,9 @@ var planningSupports = require('./routes/planningSupports');
 var plfSupports = require('./routes/plfSupports');
 var research = require('./routes/research');
 var supportDocs = require('./routes/supportDocs');
-var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
-var tasksPathway = require('./routes/tasksPathway');
+var tasks = require('./routes/tasks');
+// var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
+// var tasksPathway = require('./routes/tasksPathway');
 
 var contact = require('./routes/contact');
 //var controllers = require('./controllers');
@@ -42,9 +43,10 @@ app.use('/planningSupports', planningSupports);
 app.use('/plfSupports', plfSupports);
 app.use('/research', research);
 app.use('/supportDocs', supportDocs);
-app.use('/tasksDigitalPaper', tasksDigitalPaper);
-app.use('/tasksPathway', tasksPathway);
+// app.use('/tasksDigitalPaper', tasksDigitalPaper);
+// app.use('/tasksPathway', tasksPathway);
 app.use('/contact', contact);
+app.use('/tasks', tasks);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
