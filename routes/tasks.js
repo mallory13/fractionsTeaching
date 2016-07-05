@@ -73,6 +73,10 @@ router.get('/compARecipeBLM1', function(req, res, next) {
   res.render('compARecipeBLM1', {title:"Recipe Task BLM"});
 });
 
+router.get('/comp', function(req, res, next) {
+  res.render('comp', {title:"Comparing Fractions"});
+});
+
 
 router.get('/compARecipeBLM2', function(req, res, next) {
   res.render('compARecipeBLM2', {title:"Recipe Task BLM2"});
