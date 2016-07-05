@@ -1,0 +1,55 @@
+<%- include partials/header.ejs%>
+
+<!-- Breadcrumbs -->
+<ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#tasks">Tasks</a></li>
+    <li><a href="tasks/digitalPaper/digitalTasks.html">Digital Paper Tasks</a></li>
+</ol>
+</header>
+
+<main>
+
+<p><a href="tasks/digitalPaper/single.html">Single Lessons</a></p>
+<p><a href="tasks/digitalPaper/bundle.html">Lesson Bundles</a></p>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingOne">
+  <h4 class="panel-title">
+    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Single Lessons
+    </a>
+  </h4>
+</div>
+<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+  <div class="panel-body">
+<!-- Insert single lesson content here-->
+<p><a href="tasks/digitalPaper/singleLessons/fracRep.html">Fractions Representation (Jr-Int)</a></p>
+<p><a href="tasks/digitalPaper/singleLessons/compOrder.html">Comparing and Ordering Fractions (Gr 6)</a></p>
+<p><a href="tasks/digitalPaper/singleLessons/setAreaMod.html">Fractions Representations with Set Area Models (Gr 6)</a></p>
+<p><a href="tasks/digitalPaper/singleLessons/impSetRep.html">Improper Fractions with Set Representations (Gr 6)</a></p>
+  </div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingTwo">
+  <h4 class="panel-title">
+    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Lesson Bundles
+    </a>
+  </h4>
+</div>
+<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+  <div class="panel-body">
+<!-- Insert lesson bundles content here-->
+<p><a href="tasks/digitalPaper/lessonBundles/rep.html">Representations (Jr)</a></p>
+<p><a href="tasks/digitalPaper/lessonBundles/setRep.html">Set Representations (Jr)</a></p>
+<p><a href="tasks/digitalPaper/lessonBundles/equivFrac.html">Equivalence of Fractions (Jr - Int)</a></p>
+<p><a href="tasks/digitalPaper/lessonBundles/orderNumLine.html">Ordering on a Number Line (Gr 7)</a></p>
+
+  </div>
+</div>
+</div>
+</div>
+<%- include partials/footer.ejs%>

@@ -16,14 +16,14 @@ var research = require('./routes/research');
 var supportDocs = require('./routes/supportDocs');
 var tasksDigitalPaper = require('./routes/tasksDigitalPaper');
 var tasksPathway = require('./routes/tasksPathway');
-var contact = require('./routes/contact');
 
-// var controllers = require('./controllers');
+var contact = require('./routes/contact');
+//var controllers = require('./controllers');
 
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public

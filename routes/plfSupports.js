@@ -10,16 +10,17 @@ var router = express.Router();
 // GET plf support pages
 
 router.get('/adobePayAttention', function(req, res, next) {
-  res.render('plfSupports/adobePayAttention', {title:"Adobe Paying Attention Series"});
+  res.render('adobePayAttention', {title:"Adobe Paying Attention Series"});
 });
 
 router.get('/postcard', function(req, res, next) {
-  res.render('plfSupports/postcard', {title:"Postcard"});
+  res.render('postcard', {title:"Postcard"});
 });
 
-router.get('/proLearnIntoFrac', function(req, res, next) {
-  res.render('plfSupports/proLearnIntoFrac', {title:"Professional Introduction to Learning Fractions"});
+router.get('/proLearnIntroFrac', function(req, res, next) {
+  res.render('proLearnIntroFrac', {title:"Professional Introduction to Learning Fractions"});
 });
+
 
 
 module.exports = router;

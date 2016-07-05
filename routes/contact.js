@@ -1,71 +1,37 @@
 //routes and controllers are the same thing
 
 'use strict'
-var express = require('express');
-var router = express.Router();
+ var express = require('express');
+ var router = express.Router();
+// var angular = require('angular');
 
+var nodemailer = require('nodemailer');
+//new mailer
+var transporter = nodemailer.createTransport('smtps://username123%40gmail.com:password@smtp.gmail.com');
+var mailOptions;
 
-angular.module('core').controller('ContactFormController', ['$scope', '$mdToast', '$animate'
-  function($scope, '$mdToast', '$animate'){
-    //show variable from contact form view
-
-$scope.toastPosition = {
-  bottom: false,
-  top: true,
-  left: false,
-  right: true
-};
-$scope.getToastPosition = function () {
-  return Object.keys($scope.toastPosition)
-  .filter(function (pos){
-    return $scope.toastPosition[pos];
-  })
-  .join(' ');
-};
-this.sendMail = function (){
-
-  data=({
-  firstName : this.firstName,
-  lastName : this.lastName,
-  email : this.email,
-  schoolBoard : this.schoolBoard,
-  message : this.message
+router.post('/contact-me', function(req,res,next){
+      mailOptions = {
+        // put gmail here
+        to: 'admin@gmail.com',
+        subject: req.body.subject,
+        html: "Hello, you receive message from "+req.body.email+".<br/>Message:<br/>"+req.body.message
+    };
+    transporter.sendMail(mailOptions, function(error, info){
+    if(error){
+        return console.log(error);
+        res.redirect('/');
+    }
+    console.log('Message sent: ' + info.response);
+    res.redirect('/');
+    });
 });
-
-//POST request
-$http.post('/contact-form', data)
-success(function(data, status, headers, config){
-  //callback when response is available
-})
-error(function(data, status, headers, config){
-  //if error occurs or server returns response with an error status
-
-});
-
-  $mdToast.simple()
-  .content('Your message has been sent.')
-  .position($scope.getToastPosition()
-.hideDelay(3000)
-);
-};
-  }
-]);
-
-
-
-
 
 //load the about view and pass variable myName with a value
 //one json array to hold all the variables we want to pass back
 
 
 
-});
+//});
 
-
-
-
-
-
-
-module.exports = router;
+ module.exports = router;
