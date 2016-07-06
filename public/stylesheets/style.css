@@ -145,7 +145,7 @@ footer{
     padding-left: 8%;
 	margin-left: 10%;
   color: oldlace;
-  border-top:2px solid #FF6B00;
+  border-top:2% solid #FF6B00;
 }
 small {
     clear: both;
@@ -159,7 +159,7 @@ small {
     color: oldlace;
     padding-left: 5%;
     font-size: 2em;
-    border-top:2px solid #FF6B00;
+    /*border-top:2px solid #FF6B00;*/
 
 
 
