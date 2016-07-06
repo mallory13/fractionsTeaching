@@ -82,7 +82,7 @@ main{
   border: 2px solid #82BC00;
 }
 
-.linkBubble a{
+.linkBubble {
   margin: 50px;
 	border: 1px solid #00C1DE;
   padding: 5% 30%;
@@ -117,6 +117,7 @@ h1, h2{
 a:hover{
   color: #724199;
   border-bottom: 3px solid #724199;
+  text-decoration: none;
   /*font-size: 50%;*/
 }
 
