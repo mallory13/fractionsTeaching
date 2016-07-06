@@ -145,7 +145,8 @@ footer{
     padding-left: 8%;
 	margin-left: 10%;
   color: oldlace;
-  border-top:2% solid #FF6B00;
+  border-top: thick solid #FF6B00;
+
 }
 small {
     clear: both;
