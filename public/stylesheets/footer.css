@@ -1,0 +1,35 @@
+@charset "utf-8";
+	/*.st0*/
+
+
+
+footer{
+
+	margin-bottom: 2%;
+	margin-top: 10%;
+    height: auto;
+    width: 80%;
+    padding: 5%;
+    padding-left: 8%;
+	margin-left: 10%;
+  color: oldlace;
+  border-top: thick solid #FF6B00;
+
+}
+small {
+    clear: both;
+    background-color: #3B3B3B;
+    text-align: center;
+    height: 20px;
+    position: fixed;
+    width:100%;
+    left:-2px;
+    bottom:0px;
+    color: oldlace;
+    padding-left: 5%;
+    font-size: 2em;
+    /*border-top:2px solid #FF6B00;*/
+
+
+
+}
