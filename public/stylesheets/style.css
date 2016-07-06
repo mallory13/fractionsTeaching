@@ -82,7 +82,7 @@ main{
   border: 2px solid #82BC00;
 }
 
-.linkBubble{
+.linkBubble a{
   margin: 50px;
 	border: 1px solid #00C1DE;
   padding: 5% 30%;
