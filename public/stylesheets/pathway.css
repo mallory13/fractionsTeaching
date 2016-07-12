@@ -17,7 +17,7 @@ body{
     align-items: center;
   }
 
-  main{
+#pathwayContainer{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
