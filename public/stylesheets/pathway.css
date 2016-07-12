@@ -31,6 +31,7 @@ body{
 #unitMain{
   flex-grow: 3;
   flex-basis: 20vw;
+  flex-direction: column;
 }
 
 #compTitle{
@@ -41,6 +42,7 @@ body{
 #compMain{
   flex-grow: 3;
   flex-basis: 20vw;
+  flex-direction: column;
 }
 
 #opTitle{
@@ -51,6 +53,7 @@ body{
 #opMain{
   flex-grow: 3;
   flex-basis: 20vw;
+  flex-direction: column;
 }
 
   /*.parBlue .parGreen .parOrange{
