@@ -11,7 +11,7 @@ a{
 body{
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -19,38 +19,38 @@ body{
 
 #pathwayContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
   }
 
-/*#unitTitle{
+#unitTitle{
   flex-grow: 1;
-  flex-basis: 10vw;
+  flex-basis: 20vw;
 }
 
-#unitMain{
+/*#unitMain{
   flex-grow: 3;
   flex-basis: 20vw;
   flex-direction: column;
-}
+}*/
 
 #compTitle{
   flex-grow: 1;
-  flex-basis: 10vw;
+  flex-basis: 20vw;
 }
 
-#compMain{
+/*#compMain{
   flex-grow: 3;
   flex-basis: 20vw;
   flex-direction: column;
-}
+}*/
 
 #opTitle{
   flex-grow: 1;
-  flex-basis: 10vw;
+  flex-basis: 20vw;
 }
 
-#opMain{
+/*#opMain{
   flex-grow: 3;
   flex-basis: 20vw;
   flex-direction: column;
