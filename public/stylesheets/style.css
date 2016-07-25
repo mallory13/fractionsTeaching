@@ -60,11 +60,13 @@ main{
     margin: 0 auto;
 }*/
 
-.jumbotron{
+.pathway{
   border: 1px solid #82BC00;
   box-shadow: 0 0 8px #999;
   background-color: #383838;
   color: #e4e5e4;
+  width: 80%;
+  height: 5%;
 }
 
 
