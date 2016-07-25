@@ -171,10 +171,22 @@ a:active{
     background-color: #82BC00;
   }
 
+  .green:hover{
+    background-color: #537800;
+  }
+
 .blue{
   background-color: #00C1DE;
 }
 
+.blue:hover{
+  background-color: #005677;
+}
+
 .orange{
   background-color: #FF6B00;
+}
+
+.orange:hover{
+  background-color: #853800;
 }
