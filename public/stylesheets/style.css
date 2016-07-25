@@ -165,3 +165,16 @@ a:active{
   .thumbnail h2{
     color: #333;
   }
+
+
+  .green{
+    background-color: #82BC00;
+  }
+
+.blue{
+  background-color: #00C1DE;
+}
+
+.orange{
+  background-color: #FF6B00;
+}
