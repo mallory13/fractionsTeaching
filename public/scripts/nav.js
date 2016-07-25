@@ -1,6 +1,6 @@
 /* DOM ready*/
-            $(function(){
-                alert("DOM ready");
+            // $(function(){
+            //     alert("DOM ready");
 
 				// Persistent navigation
                 var navTop = $('#floatingbar').offset().top;
