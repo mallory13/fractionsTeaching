@@ -140,8 +140,8 @@ a:active{
 
   .thumbnail{
     background-color: #e4e5e4;
-    height: 20%;
-    width: auto;
+    /*height: 20%;
+    width: auto;*/
   }
 
   .thumbnail img{
