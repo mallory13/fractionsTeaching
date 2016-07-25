@@ -60,11 +60,18 @@ main{
     margin: 0 auto;
 }*/
 
+.jumbotron{
+  border: 1px solid #82BC00;
+  box-shadow: 0 0 8px #999;
+  background-color: #383838;
+  color: #e4e5e4;
+}
 
-#pathway{
-  /*margin: 10%;*/
+
+/*#pathway{
+
 	border: 1px solid #82BC00;
-  /*padding: 1% 1%;*/
+
   padding-top: 1%;
   padding-bottom: 1%;
   margin-left: 10%;
@@ -76,9 +83,9 @@ main{
   color: #e4e5e4;
   align-content: center;
   text-align: center;
-}
+}*/
 
-#pathway:hover{
+.pathway:hover{
   border: 2px solid #82BC00;
 }
 
