@@ -139,10 +139,14 @@ a:active{
   )*/
 
   .thumbnail{
-    color: #333;
+
     background-color: #e4e5e4;
   }
 
   .thumbnail img{
     border: 1px solid #333;
+  }
+
+  .thumbnail h2{
+    color: #333;
   }
