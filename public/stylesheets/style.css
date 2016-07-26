@@ -117,7 +117,7 @@ h1, h2{
   font-size: 3em;
   color: #e4e5e4;
 }
-h2{
+h2, h3{
   font-size: 2em;
 }
 
@@ -162,8 +162,12 @@ a:active{
     padding-top: 5%;
   }
 
-  .thumbnail h2{
+  .thumbnail h2, .thumbnail h3{
     color: #333;
+  }
+
+  .thumbnail:hover{
+    background-color: #ABC2C4;
   }
 
 
@@ -189,4 +193,8 @@ a:active{
 
 .orange:hover{
   background-color: #853800;
+}
+
+p{
+  color: #C8E3E5;
 }
