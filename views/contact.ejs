@@ -12,24 +12,50 @@
         <form name="contactForm" action="/contact/contact-me" method="post">
          <fieldset class="well well-large text-center">
              <div class="input-group">
+               <div class="row">
+                 <div class="col-md-4">
             <label for="firstName" >First Name:</label>
+          </div>
+          <div class="col-md-8">
             <input type="text" data-ng-model="cf.firstName" class="form-control" id="firstName" name="first-name" placeholder="Enter your first name" required />
+          </div>
+           </div>
            </div>
 
 
 
              <div class="input-group">
+               <div class="row">
+                 <div class="col-md-4">
             <label for="lastName">Last Name:</label>
+          </div>
+          <div class="col-md-8">
             <input type="text" data-ng-model="cf.lastName" class="form-control" id="lastName" name="last-name" placeholder="Enter your last name" required />
             </div>
+            </div>
+            </div>
+
+
 
             <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
             <label for="email">Email:</label>
+          </div>
+          <div class="col-md-8">
             <input type="email" data-ng-model="cf.email" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
           </div>
+          </div>
+          </div>
+
+
 
             <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
   <label for="schoolBoard" class="control-label">School Board</label>
+</div>
+<div class="col-md-8">
     <select class="form-control" data-ng-model="schoolBoard" name="school">
       <option>None</option>
       <option>Out of Province Board</option>
@@ -118,10 +144,21 @@
       <option>York Region District School Board</option>
     </select>
   </div>
+  </div>
+  </div>
+
+
             <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
             <label for="message">Message:</label>
-            <textarea id="message" data-ng-model="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
+          </div>
+          <div class="col-md-8">
+            <textarea rows="4" cols="50" id="message" data-ng-model="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
             </div>
+            </div>
+            </div>
+
 
             <p></p>
             <div class="input-group">
