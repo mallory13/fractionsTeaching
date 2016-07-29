@@ -30,7 +30,7 @@ router.get('/devFracNumSense', function(req, res, next) {
 });
 
 router.get('/devPartItDisembed', function(req, res, next) {
-  res.render('devPartItDisembed', {title:"Developing Fraction Number Sense"});
+  res.render('devPartItDisembed', {title:"Developing Proficiency with Partitioning, Iterating and Disembedding"});
 });
 
 router.get('/fracAcrossStrands', function(req, res, next) {
