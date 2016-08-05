@@ -159,6 +159,7 @@ a:active{
     /*height: 20%;
     width: auto;*/
     height: 400px;
+    text-align: center;
   }
 
   .thumbnail img{
@@ -180,6 +181,7 @@ a:active{
     /*height: 20%;
     width: auto;*/
     height: 200px;
+    text-align: center;
   }
 
   .smallRec{
@@ -187,6 +189,7 @@ a:active{
     /*height: 20%;
     width: auto;*/
     height: 200px;
+    text-align: center;
   }
 
   .green{
