@@ -151,7 +151,7 @@ a:active{
   )*/
 
   .thumbnail{
-    background-color: #636363;
+    background-color: #4F4F4F;
     /*height: 20%;
     width: auto;*/
     height: 400px;
@@ -172,14 +172,14 @@ a:active{
 
 
   .medRec{
-    background-color: #636363;
+    background-color: #4F4F4F;
     /*height: 20%;
     width: auto;*/
     height: 200px;
   }
 
   .smallRec{
-    background-color: #636363;
+    background-color: #4F4F4F;
     /*height: 20%;
     width: auto;*/
     height: 100px;
