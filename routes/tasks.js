@@ -178,4 +178,178 @@ router.get('/walkLine', function(req, res, next) {
 });
 
 
+
+
+
+// GET tasks template pages
+router.get('/walkLineTemplate', function(req, res, next) {
+  res.render('walkLineTemplate', {title:"Unit A Walk the Line Template"});
+});
+
+router.get('/turfTouchdownTemplate', function(req, res, next) {
+  res.render('turfTouchdownTemplate', {title:"Op E Turf Touchdown Template"});
+});
+
+
+router.get('/recipeTemplate', function(req, res, next) {
+  res.render('recipeTemplate', {title:"Comp A Recipe Task Template"});
+});
+
+router.get('/relayRaceTemplate', function(req, res, next) {
+  res.render('relayRaceTemplate', {title:"Op D Relay Race Template"});
+});
+
+router.get('/shapeSetsTemplate', function(req, res, next) {
+  res.render('shapeSetsTemplate', {title:"Unit F Fraction Shape Sets Template"});
+});
+
+router.get('/paperFoldTemplate', function(req, res, next) {
+  res.render('paperFoldTemplate', {title:"Comp E Pretty Powerful Paper Folding Template"});
+});
+
+router.get('/countGameTemplate', function(req, res, next) {
+  res.render('countGameTemplate', {title:"Unit D Counting Game Template"});
+});
+
+router.get('/desktopFracTemplate', function(req, res, next) {
+  res.render('desktopFracTemplate', {title:"Unit B Desktop Fractions Template"});
+});
+
+router.get('/iHaveTemplate', function(req, res, next) {
+  res.render('iHaveTemplate', {title:"Unit F I Have, Who Has Template"});
+});
+
+router.get('/brownieTemplate', function(req, res, next) {
+  res.render('brownieTemplate', {title:"Unit B Brownie Sharing Template"});
+});
+
+router.get('/buildingFlagsTemplate', function(req, res, next) {
+  res.render('buildingFlagsTemplate', {title:"Op B Building Flags Template"});
+});
+
+
+router.get('/buildStageTemplate', function(req, res, next) {
+  res.render('buildStageTemplate', {title:"Op D Building a Stage Template"});
+});
+
+
+router.get('/changeWholesTemplate', function(req, res, next) {
+  res.render('changeWholesTemplate', {title:"Changing Wholes Template"});
+});
+
+
+// GET tasks implementation pages
+router.get('/walkLineImplementation', function(req, res, next) {
+  res.render('walkLineImplementation', {title:"Unit A Walk the Line Implementation"});
+});
+
+router.get('/turfTouchdownImplementation', function(req, res, next) {
+  res.render('turfTouchdownImplementation', {title:"Op E Turf Touchdown Implementation"});
+});
+
+
+router.get('/recipeImplementation', function(req, res, next) {
+  res.render('recipeImplementation', {title:"Comp A Recipe Task Implementation"});
+});
+
+router.get('/relayRaceImplementation', function(req, res, next) {
+  res.render('relayRaceImplementation', {title:"Op D Relay Race Implementation"});
+});
+
+router.get('/shapeSetsImplementation', function(req, res, next) {
+  res.render('shapeSetsImplementation', {title:"Unit F Fraction Shape Sets Implementation"});
+});
+
+router.get('/paperFoldImplementation', function(req, res, next) {
+  res.render('paperFoldImplementation', {title:"Comp E Pretty Powerful Paper Folding Implementation"});
+});
+
+router.get('/countGameImplementation', function(req, res, next) {
+  res.render('countGameImplementation', {title:"Unit D Counting Game Implementation"});
+});
+
+router.get('/desktopFracImplementation', function(req, res, next) {
+  res.render('desktopFracImplementation', {title:"Unit B Desktop Fractions Implementation"});
+});
+
+router.get('/iHaveImplementation', function(req, res, next) {
+  res.render('iHaveImplementation', {title:"Unit F I Have, Who Has Implementation"});
+});
+
+router.get('/brownieImplementation', function(req, res, next) {
+  res.render('brownieImplementation', {title:"Unit B Brownie Sharing Implementation"});
+});
+
+router.get('/buildingFlagsImplementation', function(req, res, next) {
+  res.render('buildingFlagsImplementation', {title:"Op B Building Flags Implementation"});
+});
+
+
+router.get('/buildStageImplementation', function(req, res, next) {
+  res.render('buildStageImplementation', {title:"Op D Building a Stage Implementation"});
+});
+
+
+router.get('/changeWholesImplementation', function(req, res, next) {
+  res.render('changeWholesImplementation', {title:"Changing Wholes Implementation"});
+});
+
+
+// GET tasks student thinking pages
+router.get('/walkLineStudentLearning', function(req, res, next) {
+  res.render('walkLineStudentLearning', {title:"Unit A Walk the Line Student Learning"});
+});
+
+router.get('/turfTouchStudentLearning', function(req, res, next) {
+  res.render('turfTouchStudentLearning', {title:"Op E Turf Touchdown Student Learning"});
+});
+
+
+router.get('/recipeStudentLearning', function(req, res, next) {
+  res.render('recipeStudentLearning', {title:"Comp A Recipe Task Student Learning"});
+});
+
+router.get('/relayRaceStudentLearning', function(req, res, next) {
+  res.render('relayRaceStudentLearning', {title:"Op D Relay Race Student Learning"});
+});
+
+router.get('/shapeSetsStudentLearning', function(req, res, next) {
+  res.render('shapeSetsStudentLearning', {title:"Unit F Fraction Shape Sets Student Learning"});
+});
+
+router.get('/paperFoldStudentLearning', function(req, res, next) {
+  res.render('paperFoldStudentLearning', {title:"Comp E Pretty Powerful Paper Folding Student Learning"});
+});
+
+router.get('/countGameStudentLearning', function(req, res, next) {
+  res.render('countGameStudentLearning', {title:"Unit D Counting Game Student Learning"});
+});
+
+router.get('/desktopFracStudentLearning', function(req, res, next) {
+  res.render('desktopFracStudentLearning', {title:"Unit B Desktop Fractions Student Learning"});
+});
+
+router.get('/iHaveStudentLearning', function(req, res, next) {
+  res.render('iHaveStudentLearning', {title:"Unit F I Have, Who Has Student Learning"});
+});
+
+router.get('/brownieStudentLearning', function(req, res, next) {
+  res.render('brownieStudentLearning', {title:"Unit B Brownie Sharing Student Learning"});
+});
+
+router.get('/buildingFlagsStudentLearning', function(req, res, next) {
+  res.render('buildingFlagsStudentLearning', {title:"Op B Building Flags Student Learning"});
+});
+
+
+router.get('/buildStageStudentLearning', function(req, res, next) {
+  res.render('buildStageStudentLearning', {title:"Op D Building a Stage Student Learning"});
+});
+
+
+router.get('/changeWholesStudentLearning', function(req, res, next) {
+  res.render('changeWholesStudentLearning', {title:"Changing Wholes Student Learning"});
+});
+
+
 module.exports = router;
