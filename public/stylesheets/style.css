@@ -65,8 +65,8 @@ main{
   box-shadow: 0 0 8px #999;
   background-color: #383838;
   color: #e4e5e4;
-  /*width: 80%;
-  height: 5%;*/
+  width: 80%;
+  height: 5%;
 }
 
 
@@ -115,10 +115,14 @@ form{
 h1, h2{
   text-align: center;
   font-size: 3em;
-  color: #e4e5e4;
+  color: #F6F7F6;
 }
-h2, h3{
+h2{
   font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
 }
 
 #searchEngine{
@@ -210,5 +214,5 @@ a:active{
 }
 
 p{
-  color: #C8E3E5;
+  color: #F6F7F6;
 }
