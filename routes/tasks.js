@@ -296,59 +296,59 @@ router.get('/changeWholesImplementation', function(req, res, next) {
 
 
 // GET tasks student thinking pages
-router.get('/walkLineStudentLearning', function(req, res, next) {
-  res.render('walkLineStudentLearning', {title:"Unit A Walk the Line Student Learning"});
+router.get('/walkLineStudentThinking', function(req, res, next) {
+  res.render('walkLineStudentThinking', {title:"Unit A Walk the Line Student Thinking"});
 });
 
-router.get('/turfTouchStudentLearning', function(req, res, next) {
-  res.render('turfTouchStudentLearning', {title:"Op E Turf Touchdown Student Learning"});
-});
-
-
-router.get('/recipeStudentLearning', function(req, res, next) {
-  res.render('recipeStudentLearning', {title:"Comp A Recipe Task Student Learning"});
-});
-
-router.get('/relayRaceStudentLearning', function(req, res, next) {
-  res.render('relayRaceStudentLearning', {title:"Op D Relay Race Student Learning"});
-});
-
-router.get('/shapeSetsStudentLearning', function(req, res, next) {
-  res.render('shapeSetsStudentLearning', {title:"Unit F Fraction Shape Sets Student Learning"});
-});
-
-router.get('/paperFoldStudentLearning', function(req, res, next) {
-  res.render('paperFoldStudentLearning', {title:"Comp E Pretty Powerful Paper Folding Student Learning"});
-});
-
-router.get('/countGameStudentLearning', function(req, res, next) {
-  res.render('countGameStudentLearning', {title:"Unit D Counting Game Student Learning"});
-});
-
-router.get('/desktopFracStudentLearning', function(req, res, next) {
-  res.render('desktopFracStudentLearning', {title:"Unit B Desktop Fractions Student Learning"});
-});
-
-router.get('/iHaveStudentLearning', function(req, res, next) {
-  res.render('iHaveStudentLearning', {title:"Unit F I Have, Who Has Student Learning"});
-});
-
-router.get('/brownieStudentLearning', function(req, res, next) {
-  res.render('brownieStudentLearning', {title:"Unit B Brownie Sharing Student Learning"});
-});
-
-router.get('/buildingFlagsStudentLearning', function(req, res, next) {
-  res.render('buildingFlagsStudentLearning', {title:"Op B Building Flags Student Learning"});
+router.get('/turfTouchStudentThinking', function(req, res, next) {
+  res.render('turfTouchStudentThinking', {title:"Op E Turf Touchdown Student Thinking"});
 });
 
 
-router.get('/buildStageStudentLearning', function(req, res, next) {
-  res.render('buildStageStudentLearning', {title:"Op D Building a Stage Student Learning"});
+router.get('/recipeStudentThinking', function(req, res, next) {
+  res.render('recipeStudentThinking', {title:"Comp A Recipe Task Student Thinking"});
+});
+
+router.get('/relayRaceStudentThinking', function(req, res, next) {
+  res.render('relayRaceStudentThinking', {title:"Op D Relay Race Student Thinking"});
+});
+
+router.get('/shapeSetsStudentThinking', function(req, res, next) {
+  res.render('shapeSetsStudentThinking', {title:"Unit F Fraction Shape Sets Student Thinking"});
+});
+
+router.get('/paperFoldStudentThinking', function(req, res, next) {
+  res.render('paperFoldStudentThinking', {title:"Comp E Pretty Powerful Paper Folding Student Thinking"});
+});
+
+router.get('/countGameStudentThinking', function(req, res, next) {
+  res.render('countGameStudentThinking', {title:"Unit D Counting Game Student Thinking"});
+});
+
+router.get('/desktopFracStudentThinking', function(req, res, next) {
+  res.render('desktopFracStudentThinking', {title:"Unit B Desktop Fractions Student Thinking"});
+});
+
+router.get('/iHaveStudentThinking', function(req, res, next) {
+  res.render('iHaveStudentThinking', {title:"Unit F I Have, Who Has Student Thinking"});
+});
+
+router.get('/brownieStudentThinking', function(req, res, next) {
+  res.render('brownieStudentThinking', {title:"Unit B Brownie Sharing Student Thinking"});
+});
+
+router.get('/buildingFlagsStudentThinking', function(req, res, next) {
+  res.render('buildingFlagsStudentThinking', {title:"Op B Building Flags Student Thinking"});
 });
 
 
-router.get('/changeWholesStudentLearning', function(req, res, next) {
-  res.render('changeWholesStudentLearning', {title:"Changing Wholes Student Learning"});
+router.get('/buildStageStudentThinking', function(req, res, next) {
+  res.render('buildStageStudentThinking', {title:"Op D Building a Stage Student Thinking"});
+});
+
+
+router.get('/changeWholesStudentThinking', function(req, res, next) {
+  res.render('changeWholesStudentThinking', {title:"Changing Wholes Student Thinking"});
 });
 
 
